@@ -1,0 +1,58 @@
+*{
+  background-color: #0E0F14;
+}
+
+.App{
+  border: 3px solid #2E2F34;
+  margin: 50px 15px;
+  padding: 25px 15px;
+  background-color: #212227;
+  border-radius: 10PX;
+}
+.App h1{
+  text-align: center;
+  background-color: #212227;
+  color: white;
+
+}
+
+.all{
+display: flex;
+flex-direction: column;
+background-color: #212227;
+
+}
+
+.all ul li{
+  width: 150px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  list-style-type:"✅";
+}
+.all button{
+  background-color: #212227;
+margin-top: 10px;
+border: 1px solid #2E2F34;
+color: white;
+border-radius: 8px;
+padding: 5px;
+}
+
+.all input{
+  background-color: #2E2F34;
+  border-radius: 8px;
+  padding: 5px;
+
+}
+.all input::placeholder{
+color: white;
+}
+
+.all ul {
+  background-color: #212227;
+}
+.all li{
+  background-color: #212227;
+color: wheat;
+}
+
